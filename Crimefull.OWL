@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="SEMOSS:ENGINE_METADATA">
+	<BASE_URI xmlns="CONTAINS:" rdf:resource="http://semoss.org/ontologies/Concept/"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<KEY xmlns="URI:"> http://semoss.org/ontologies/Concept/id/crime4</KEY>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/crime4"/>
+</rdf:Description>
+
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/longitude/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/longitude/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/longitude/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/latitude/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/latitude/crime4">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/latitude/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/ward/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ward/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ward/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/date1/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/date1/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/date1/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/updatedon/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/updatedon/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/updatedon/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/year/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/year/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/year/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/ycoordinate/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ycoordinate/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/ycoordinate/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/xcoordinate/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/xcoordinate/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/xcoordinate/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/fbicode/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/fbicode/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/fbicode/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/communityarea/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/communityarea/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/communityarea/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/district/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/district/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/district/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/beat/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/beat/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/beat/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/domestic/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/domestic/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/domestic/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/arrest/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/arrest/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/arrest/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/locationdescription/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/locationdescription/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/locationdescription/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/description/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/description/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/description/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/primarytype/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/primarytype/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/primarytype/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/iucr/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/iucr/crime4">
+			<rdfs:Class rdf:resource="TYPE:LONG"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/iucr/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/block/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/block/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/block/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/casenumber/crime4"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/id/crime4">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/casenumber/crime4">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(800)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/casenumber/crime4"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2017:11:06 21:11:33</TIME>
+</rdf:Description>
+
+</rdf:RDF>
